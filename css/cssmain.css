@@ -73,13 +73,35 @@ nav > ul > li > a:hover::after{
 }
 
 #home_content{
+    display: none;
+}
+
+#home_content:target{
     display: flex;
     margin: 100px 250px;
     border: solid;
     border-color: #de3c44;
     padding: 2vw 5vw;
 }
+
+#menu{
+    display: none;
+}
+
+#menu:target{
+    
+}
+
+#menu:target{
+    display: flex;
+    text-align:center
+}
+
 p{
     font-size: x-large;
+    font-weight: bold;
+}
+
+#home_content > p{
     padding: 2vw 5vw;
 }

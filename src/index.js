@@ -1,1 +1,4 @@
-alert("This is working");
+if(document.location.hash == "" || document.location.hash == "#")
+{
+    document.location.hash = "#home_content";
+}
