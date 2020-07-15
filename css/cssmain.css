@@ -89,7 +89,10 @@ nav > ul > li > a:hover::after{
 }
 
 #menu:target{
-    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
 }
 
 #menu:target{
@@ -97,11 +100,43 @@ nav > ul > li > a:hover::after{
     text-align:center
 }
 
-p{
-    font-size: x-large;
+#menu_description{
+    font-size: 30px;
     font-weight: bold;
 }
 
 #home_content > p{
     padding: 2vw 5vw;
+}
+.list{
+    float: left;
+    border: solid;
+    border-color: black;
+    height:300px;
+}
+
+.list > table{
+    table-layout: fixed;
+    
+}
+
+table > tbody > tr > td{
+    font-size: 20px;
+    height:100%;
+}
+
+#contact_us{
+    display: none;
+}
+
+#contact_us:target{
+    display: flex;
+    flex-direction: column;
+    border: 4px black solid;
+    margin: 100px 250px;
+}
+
+#contact_us_content{
+    font-size: 25px;
+    padding: 30px;
 }
