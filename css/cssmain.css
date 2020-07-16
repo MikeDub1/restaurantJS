@@ -84,6 +84,11 @@ nav > ul > li > a:hover::after{
     padding: 2vw 5vw;
 }
 
+#home_content > p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
 #menu{
     display: none;
 }
