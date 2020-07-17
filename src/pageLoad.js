@@ -155,6 +155,8 @@ export let Module = (() =>
         contents.appendChild(top);
         loadMiddle(middle);
         contents.appendChild(middle);
+        if (document.location.hash == "" || document.location.hash == "#")
+    document.location.hash = "#home_content";
     }
 
     return loadPage;
